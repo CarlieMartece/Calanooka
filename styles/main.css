@@ -1,0 +1,200 @@
+body {
+    background-color: black;
+	color: aliceblue;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    margin: 0;
+}
+
+body a {
+	color:#0093FF;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+#content {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, black);
+    margin-top: 65px;
+    min-height: 770px;
+	padding-top: 65px;
+    text-align: justify;
+}
+
+figure {
+	margin: 0;
+}
+
+figure,
+h1,
+h2 {
+	background-color: black;
+	padding: 0 10px;
+	text-align: center;
+}
+
+#footer {
+    background-color: black;
+}
+
+footer p {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+header {
+	background-color: black;
+	height: 65px;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+ol,ul {
+    list-style-position: inside;
+}
+
+p:first-letter {
+	font-size: 200%;
+}
+
+section {
+	background-color: black;
+	padding: 0 10px;
+	text-align: justify;
+}
+
+#sphere-0 {
+    background-color: #C6AED3;
+}
+
+#sphere-1 {
+    background-color: #93278F;
+}
+
+#sphere-2 {
+    background-color: #3F51B5;
+}
+
+#sphere-3 {
+    background-color: #2196F3;
+}
+
+#sphere-4 {
+    background-color: green;
+}
+
+#sphere-5 {
+    background-color: yellow;
+}
+
+#sphere-6 {
+    background-color: orange;
+}
+
+#sphere-7 {
+    background-color: red;
+}
+
+#sphere-8 {
+    background-color: darkslategrey;
+}
+
+#sphere-bar {
+    background-color: black;
+	float: left;
+    font-family: 'Pragati Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+#spheres a {
+	color: black;
+}
+
+#spheres ::first-line {
+    line-height: 35px;
+}
+
+#spheres li {
+    border: 2px solid black;
+    border-radius: 40px;
+	display: block;
+    font-size: 1.2rem;
+    height: 76px;
+    list-style-type: none;
+    margin: 8px;
+    opacity: 0.5;
+    padding: 2px;
+    text-align: center;
+    width: 76px;
+}
+
+#spheres li:hover {
+	border: 2px solid white;
+	opacity: 1;
+}
+
+#spheres li a:hover {
+	border: none;
+}
+
+#title-sitename {
+	color: white;
+	float: left;
+	font-size: 30px;
+	height: 30px;
+	left: 110px;
+	position: fixed;
+	top: 30px; 
+	width: 300px;
+}
+
+#title-author {
+	color: grey;
+	float: left;
+	font-size: 20px;
+	height: 20px;
+	left: 410px;
+	position: fixed;
+	top: 40px;
+	width: 200px;
+}
+
+#title-nav li {
+	float: left;
+    font-family: 'Pragati Narrow', sans-serif;
+	font-size: 20px;
+	height: 20px;
+    list-style-type: none;
+	position: fixed;
+	top: 35px;
+}
+
+#title-nav-1 {
+	left: 610px;
+	width: 80px;
+}
+
+#title-nav-2 {
+	left: 680px;
+	width: 120px;
+}
+
+#title-nav-3 {
+	left: 800px; 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
