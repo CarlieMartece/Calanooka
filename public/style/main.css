@@ -17,4 +17,8 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 
+#cnmc * {
+  list-style-type: none;
+}
+
 /*# sourceMappingURL=main.css.map */

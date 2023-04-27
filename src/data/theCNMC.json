@@ -1,6 +1,7 @@
 {
   "alters": [
     {
+      "id": 1,
       "name": "Serena",
       "arcana": "Major",
       "cluster": "Serena",
@@ -15,6 +16,7 @@
       "sphere": "Hew Espireth"
     },
     {
+      "id": 2,
       "name": "Snuffle",
       "arcana": "Minor",
       "cluster": "Nooka",
@@ -29,6 +31,7 @@
       "sphere": "Hew Espireth"
     },
     {
+      "id": 3,
       "name": "Baby Zero",
       "arcana": "Minor",
       "cluster": "Morgana",
@@ -43,6 +46,7 @@
       "sphere": "Geren Eshper"
     },
     {
+      "id": 4,
       "name": "Clairey",
       "arcana": "Minor",
       "cluster": "Morgana",
@@ -57,6 +61,7 @@
       "sphere": "Geren Eshper"
     },
     {
+      "id": 5,
       "name": "Katie",
       "arcana": "Minor",
       "cluster": "Morgana",
@@ -71,6 +76,7 @@
       "sphere": "Geren Eshper"
     },
     {
+      "id": 6,
       "name": "Clarence",
       "arcana": null,
       "cluster": null,
@@ -85,6 +91,7 @@
       "sphere": null
     },
     {
+      "id": 7,
       "name": "Charles",
       "arcana": "Minor",
       "cluster": "Nooka",
@@ -99,6 +106,7 @@
       "sphere": "Geren Espher"
     },
     {
+      "id": 8,
       "name": "Reckmund",
       "arcana": "Minor",
       "cluster": "Alicia",
@@ -113,6 +121,7 @@
       "sphere": "Pyro Eshwelle"
     },
     {
+      "id": 9,
       "name": "Fuchsia",
       "arcana": "Minor",
       "cluster": "Honeysuckle",
@@ -127,6 +136,7 @@
       "sphere": "Geren Eshper"
     },
     {
+      "id": 10,
       "name": "Anxia Terra",
       "arcana": "Minor",
       "cluster": "Alicia",
@@ -141,6 +151,7 @@
       "sphere": "Geren Eshper"
     },
     {
+      "id": 11,
       "name": "Letitia",
       "arcana": null,
       "cluster": null,
@@ -155,6 +166,7 @@
       "sphere": null
     },
     {
+      "id": 12,
       "name": "Lolita Honey",
       "arcana": "Minor",
       "cluster": "Honeysuckle",
@@ -169,6 +181,7 @@
       "sphere": "Pyro Eshwelle"
     },
     {
+      "id": 13,
       "name": "Loretta Alice",
       "arcana": "Minor",
       "cluster": "Honeysuckle",
@@ -183,6 +196,7 @@
       "sphere": "Pyro Eshwelle"
     },
     {
+      "id": 14,
       "name": "Rose",
       "arcana": "Minor",
       "cluster": "Honeysuckle",
@@ -197,6 +211,7 @@
       "sphere": "Opree Shengra"
     },
     {
+      "id": 15,
       "name": "Katherine",
       "arcana": "Minor",
       "cluster": "Alicia",
@@ -211,6 +226,7 @@
       "sphere": "Geren Eshper"
     },
     {
+      "id": 16,
       "name": "Honeysuckle",
       "arcana": "Major",
       "cluster": "Honeysuckle",
@@ -225,6 +241,7 @@
       "sphere": "Opree Shengra"
     },
     {
+      "id": 17,
       "name": "Alicia",
       "arcana": "Major",
       "cluster": "Alicia",
@@ -239,6 +256,7 @@
       "sphere": "Pred Heres"
     },
     {
+      "id": 18,
       "name": "Morgana",
       "arcana": "Major",
       "cluster": "Morgana",
@@ -253,6 +271,7 @@
       "sphere": "Geren Eshper"
     },
     {
+      "id": 19,
       "name": "Estella",
       "arcana": "Major",
       "cluster": "Estella",
@@ -267,6 +286,7 @@
       "sphere": "Evol Espireth"
     },
     {
+      "id": 20,
       "name": "Jane",
       "arcana": "Minor",
       "cluster": "Honeysuckle",
@@ -281,6 +301,7 @@
       "sphere": "Opree Shengra"
     },
     {
+      "id": 21,
       "name": "Kathy",
       "arcana": "Minor",
       "cluster": "Alicia",
@@ -295,6 +316,7 @@
       "sphere": "Geren Eshper"
     },
     {
+      "id": 22,
       "name": "Cal",
       "arcana": "Minor",
       "cluster": "Nooka",
@@ -309,6 +331,7 @@
       "sphere": "Godshi Enpire"
     },
     {
+      "id": 23,
       "name": "Nooka",
       "arcana": "Major",
       "cluster": "Nooka",
@@ -323,6 +346,7 @@
       "sphere": "Bure Eshpel"
     },
     {
+      "id": 24,
       "name": "Leandra",
       "arcana": "Minor",
       "cluster": "Honeysuckle",
@@ -337,6 +361,7 @@
       "sphere": "Bure Eshpel"
     },
     {
+      "id": 25,
       "name": "Ash",
       "arcana": "Minor",
       "cluster": "Alicia",
@@ -351,6 +376,7 @@
       "sphere": "Pred Heres"
     },
     {
+      "id": 26,
       "name": "Ava",
       "arcana": "Minor",
       "cluster": "Serena",
@@ -365,6 +391,7 @@
       "sphere": "Opree Shengra"
     },
     {
+      "id": 27,
       "name": "Tara",
       "arcana": "Minor",
       "cluster": "Serena",
