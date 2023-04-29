@@ -3,7 +3,6 @@
     {
       "id": 1,
       "name": "Serena",
-      "nameId": "serena",
       "arcana": "Major",
       "cluster": "Serena",
       "twin": "Baby Zero",
@@ -19,7 +18,6 @@
     {
       "id": 2,
       "name": "Snuffle",
-      "nameId": "snuffle",
       "arcana": "Minor",
       "cluster": "Nooka",
       "twin": null,
@@ -35,7 +33,6 @@
     {
       "id": 3,
       "name": "Baby Zero",
-      "nameId": "baby-zero",
       "arcana": "Minor",
       "cluster": "Morgana",
       "twin": "Serena",
