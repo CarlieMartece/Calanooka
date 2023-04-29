@@ -1,3 +1,19 @@
+$darkMain: #2c3e50;
+$redSphere: #fe0000;
+$orangeSphere: #fd8c00;
+$yellowSphere: #ffe500;
+$greenSphere: #119f0b;
+$blueSphere: #528ff9;
+$indigoSphere: #160375;
+$violetSphere: #c22edc;
+$rainbowList: $redSphere, $orangeSphere, $yellowSphere, $greenSphere, $blueSphere, $indigoSphere, $violetSphere;
+@mixin gradient($direction, $list) { 
+  background: -webkit-linear-gradient($direction, $list);
+  background: -moz-linear-gradient($direction, $list);
+  background: -o-linear-gradient($direction, $list);
+  background: linear-gradient($direction, $list);  
+}
+
 * {
   margin: 0;
   outline: 0;
@@ -5,7 +21,7 @@
 }
 
 #app {
-  color: #2c3e50;
+  color: $darkMain;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   height: 100vh;
   -moz-osx-font-smoothing: grayscale;
@@ -21,43 +37,44 @@ nav {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: $darkMain;
   }
 
   a.router-link-exact-active {
-    color: #42b983;
+    color: $greenSphere;
   }
 }
 
 #separatorStripe {
-  background: linear-gradient(
-    -90deg,
-    #fe0000 0%,
-    #fd8c00 16.66%,
-    #ffe500 33.32%,
-    #119f0b 49.98%,
-    #528ff9 66.64%,
-    #160375 83.3%,
-    #c22edc 100%
-  );
+  @include gradient(left, $rainbowList);
   height: 30px;
   opacity: 0.69;
   width: 100%;
 }
 
 main {
+  h1 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+  
   #cnmc {
     padding: 10px;
     * {
       list-style-type: none;
     }
-  
-    h1 {
-      font-size: 1.4em;
-    }
 
-    p {
-      font-size: 0.8em;
+    #serena {
+      color: $indigoSphere;
+    }
+    #snuffle {
+      color: $indigoSphere;
+    }
+    #baby-zero {
+      color: $greenSphere;
     }
   }
 }

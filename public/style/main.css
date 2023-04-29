@@ -24,27 +24,39 @@ nav a {
   color: #2c3e50;
 }
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #119f0b;
 }
 
 #separatorStripe {
-  background: linear-gradient(-90deg, #fe0000 0%, #fd8c00 16.66%, #ffe500 33.32%, #119f0b 49.98%, #528ff9 66.64%, #160375 83.3%, #c22edc 100%);
+  background: -webkit-linear-gradient(left, #fe0000, #fd8c00, #ffe500, #119f0b, #528ff9, #160375, #c22edc);
+  background: -moz-linear-gradient(left, #fe0000, #fd8c00, #ffe500, #119f0b, #528ff9, #160375, #c22edc);
+  background: -o-linear-gradient(left, #fe0000, #fd8c00, #ffe500, #119f0b, #528ff9, #160375, #c22edc);
+  background: linear-gradient(left, #fe0000, #fd8c00, #ffe500, #119f0b, #528ff9, #160375, #c22edc);
   height: 30px;
   opacity: 0.69;
   width: 100%;
 }
 
+main h1 {
+  font-size: 1.4em;
+}
+main p {
+  font-size: 0.8em;
+}
 main #cnmc {
   padding: 10px;
 }
 main #cnmc * {
   list-style-type: none;
 }
-main #cnmc h1 {
-  font-size: 1.4em;
+main #cnmc #serena {
+  color: #160375;
 }
-main #cnmc p {
-  font-size: 0.8em;
+main #cnmc #snuffle {
+  color: #160375;
+}
+main #cnmc #baby-zero {
+  color: #119f0b;
 }
 
 /*# sourceMappingURL=main.css.map */

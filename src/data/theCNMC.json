@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Serena",
+      "nameId": "serena",
       "arcana": "Major",
       "cluster": "Serena",
       "twin": "Baby Zero",
@@ -13,11 +14,12 @@
       "created": null,
       "died": null,
       "age": 415,
-      "sphere": "Hew Espireth"
+      "sphere": "Godshi Enpire"
     },
     {
       "id": 2,
       "name": "Snuffle",
+      "nameId": "snuffle",
       "arcana": "Minor",
       "cluster": "Nooka",
       "twin": null,
@@ -28,11 +30,12 @@
       "created": null,
       "died": null,
       "age": 314,
-      "sphere": "Hew Espireth"
+      "sphere": "Godshi Enpire"
     },
     {
       "id": 3,
       "name": "Baby Zero",
+      "nameId": "baby-zero",
       "arcana": "Minor",
       "cluster": "Morgana",
       "twin": "Serena",
