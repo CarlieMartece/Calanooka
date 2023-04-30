@@ -28,12 +28,12 @@
       "created": null,
       "died": null,
       "age": 314,
-      "sphere": "Godshi Enpire"
+      "sphere": "Evol Espireth"
     },
     {
       "id": 3,
       "name": "Baby Zero",
-      "arcana": "Minor",
+      "arcana": "Ghost",
       "cluster": "Morgana",
       "twin": "Serena",
       "generation": 0,
@@ -79,7 +79,7 @@
       "id": 6,
       "name": "Clarence",
       "arcana": null,
-      "cluster": null,
+      "cluster": "Ghost",
       "twin": null,
       "generation": 1,
       "origin": "Serena",
@@ -153,7 +153,7 @@
     {
       "id": 11,
       "name": "Letitia",
-      "arcana": null,
+      "arcana": "Ghost",
       "cluster": null,
       "twin": null,
       "generation": 1,

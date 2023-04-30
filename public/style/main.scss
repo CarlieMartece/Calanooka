@@ -1,11 +1,12 @@
 $darkMain: #2c3e50;
 $redSphere: #fe0000;
 $orangeSphere: #fd8c00;
-$yellowSphere: #ffe500;
+$yellowSphere: #d2af00;
 $greenSphere: #119f0b;
 $blueSphere: #528ff9;
 $indigoSphere: #160375;
 $violetSphere: #c22edc;
+$lightMain: #f8eeff;
 $rainbowList: $redSphere, $orangeSphere, $yellowSphere, $greenSphere, $blueSphere, $indigoSphere, $violetSphere;
 @mixin gradient($direction, $list) { 
   background: -webkit-linear-gradient($direction, $list);
@@ -55,6 +56,7 @@ nav {
 main {
   h1 {
     font-size: 1.4em;
+    margin-top: 10px;
   }
 
   p {
@@ -67,14 +69,94 @@ main {
       list-style-type: none;
     }
 
+    li {
+      background-color: $lightMain;
+      border: 1px solid $darkMain;
+      display: inline-block;
+      margin: 10px;
+      padding: 2%;
+    }
+
     #serena {
       color: $indigoSphere;
     }
     #snuffle {
-      color: $indigoSphere;
+      color: $violetSphere;
     }
     #baby-zero {
       color: $greenSphere;
+    }
+    #clairey {
+      color: $greenSphere;
+    }
+    #katie {
+      color: $greenSphere;
+    }
+    #clarence {
+      color: $darkMain;
+    }
+    #charles {
+      color: $greenSphere;
+    }
+    #reckmund {
+      color: $yellowSphere;
+    }
+    #fuchsia {
+      color: $greenSphere;
+    }
+    #anxia-terra {
+      color: $greenSphere;
+    }
+    #letitia {
+      color: $darkMain;
+    }
+    #lolita-honey {
+      color: $yellowSphere;
+    }
+    #loretta-alice {
+      color: $redSphere;
+    }
+    #rose {
+      color: $orangeSphere;
+    }
+    #katherine {
+      color: $orangeSphere;
+    }
+    #honeysuckle {
+      color: $orangeSphere;
+    }
+    #alicia {
+      color: $redSphere;
+    }
+    #morgana {
+      color: $greenSphere;
+    }
+    #estella {
+      color: $violetSphere;
+    }
+    #jane {
+      color: $orangeSphere;
+    }
+    #kathy {
+      color: $orangeSphere;
+    }
+    #cal {
+      color: $indigoSphere;
+    }
+    #nooka {
+      color: $blueSphere;
+    }
+    #leandra {
+      color: $blueSphere;
+    }
+    #ash {
+      color: $blueSphere;
+    }
+    #ava {
+      color: $orangeSphere;
+    }
+    #tara {
+      color: $orangeSphere;
     }
   }
 }

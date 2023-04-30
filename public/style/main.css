@@ -28,10 +28,10 @@ nav a.router-link-exact-active {
 }
 
 #separatorStripe {
-  background: -webkit-linear-gradient(left, #fe0000, #fd8c00, #ffe500, #119f0b, #528ff9, #160375, #c22edc);
-  background: -moz-linear-gradient(left, #fe0000, #fd8c00, #ffe500, #119f0b, #528ff9, #160375, #c22edc);
-  background: -o-linear-gradient(left, #fe0000, #fd8c00, #ffe500, #119f0b, #528ff9, #160375, #c22edc);
-  background: linear-gradient(left, #fe0000, #fd8c00, #ffe500, #119f0b, #528ff9, #160375, #c22edc);
+  background: -webkit-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #160375, #c22edc);
+  background: -moz-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #160375, #c22edc);
+  background: -o-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #160375, #c22edc);
+  background: linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #160375, #c22edc);
   height: 30px;
   opacity: 0.69;
   width: 100%;
@@ -39,6 +39,7 @@ nav a.router-link-exact-active {
 
 main h1 {
   font-size: 1.4em;
+  margin-top: 10px;
 }
 main p {
   font-size: 0.8em;
@@ -49,14 +50,93 @@ main #cnmc {
 main #cnmc * {
   list-style-type: none;
 }
+main #cnmc li {
+  background-color: #f8eeff;
+  border: 1px solid #2c3e50;
+  display: inline-block;
+  margin: 10px;
+  padding: 2%;
+}
 main #cnmc #serena {
   color: #160375;
 }
 main #cnmc #snuffle {
-  color: #160375;
+  color: #c22edc;
 }
 main #cnmc #baby-zero {
   color: #119f0b;
+}
+main #cnmc #clairey {
+  color: #119f0b;
+}
+main #cnmc #katie {
+  color: #119f0b;
+}
+main #cnmc #clarence {
+  color: #2c3e50;
+}
+main #cnmc #charles {
+  color: #119f0b;
+}
+main #cnmc #reckmund {
+  color: #d2af00;
+}
+main #cnmc #fuchsia {
+  color: #119f0b;
+}
+main #cnmc #anxia-terra {
+  color: #119f0b;
+}
+main #cnmc #letitia {
+  color: #2c3e50;
+}
+main #cnmc #lolita-honey {
+  color: #d2af00;
+}
+main #cnmc #loretta-alice {
+  color: #fe0000;
+}
+main #cnmc #rose {
+  color: #fd8c00;
+}
+main #cnmc #katherine {
+  color: #fd8c00;
+}
+main #cnmc #honeysuckle {
+  color: #fd8c00;
+}
+main #cnmc #alicia {
+  color: #fe0000;
+}
+main #cnmc #morgana {
+  color: #119f0b;
+}
+main #cnmc #estella {
+  color: #c22edc;
+}
+main #cnmc #jane {
+  color: #fd8c00;
+}
+main #cnmc #kathy {
+  color: #fd8c00;
+}
+main #cnmc #cal {
+  color: #160375;
+}
+main #cnmc #nooka {
+  color: #528ff9;
+}
+main #cnmc #leandra {
+  color: #528ff9;
+}
+main #cnmc #ash {
+  color: #528ff9;
+}
+main #cnmc #ava {
+  color: #fd8c00;
+}
+main #cnmc #tara {
+  color: #fd8c00;
 }
 
 /*# sourceMappingURL=main.css.map */
