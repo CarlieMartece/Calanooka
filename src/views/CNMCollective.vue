@@ -10,6 +10,7 @@
         :key="alter.id"
         :name="alter.name"
         :arcana="alter.arcana"
+        :spoilBook="alter.spoilBook"
       />
     </ul>
   </main>
