@@ -11,6 +11,7 @@
 * {
   margin: 0;
   outline: 0;
+  overflow: hidden;
   padding: 0;
 }
 
@@ -19,9 +20,10 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   height: 100vh;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
   text-align: center;
   -webkit-font-smoothing: antialiased;
-  width: 98vw;
+  width: 100vw;
 }
 
 nav {

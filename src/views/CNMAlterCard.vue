@@ -1,8 +1,12 @@
 <template>
-  <li :id="nameSpoiler" :class="spoilBook">
-    <h2 v-if="arcana === 'Major'">{{ name }}</h2>
-    <h3 v-else-if="arcana === 'Minor'">{{ name }}</h3>
-    <h4 v-else>{{ name }}</h4>
+  <li>
+    <div :class="classes">
+      <div :id="nameToId">
+        <h2 v-if="arcana === 'Major'">{{ name }}</h2>
+        <h3 v-else-if="arcana === 'Minor'">{{ name }}</h3>
+        <h4 v-else>{{ name }}</h4>
+      </div>
+    </div>
   </li>
 </template>
 
@@ -14,7 +18,11 @@ export default {
     spoilBook: String,
   },
   computed: {
-    nameSpoiler() {
+    classes() {
+      const spoiler = this.spoilBook;
+      return `alter ${spoiler}`;
+    },
+    nameToId() {
       const nameLower = this.name.toLowerCase();
       const nameArray = nameLower.split(" ");
       const nameId = nameArray.join("-");

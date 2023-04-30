@@ -1,4 +1,11 @@
-@use '../abstracts/variables' as *;
+@use "../abstracts/variables" as *;
+$lineOne: 10px;
+$lineTwo: 100px;
+$lineThree: 160px;
+$lineFour: 210px;
+$lineFive: 270px;
+$lineSix: 330px;
+$lineSeven: 390px;
 
 #cnmc {
   margin: 0 auto;
@@ -9,46 +16,71 @@
     list-style-type: none;
   }
 
-  li {
+  h2 {
+    margin-bottom: -3px;
+  }
+
+  h3 {
+    margin-bottom: -4px;
+  }
+
+  h4 {
+    margin-bottom: -6px;
+    text-decoration: line-through;
+  }
+
+  li * {
     background-color: $lightMain;
-    border: 1px solid $darkMain;
     display: inline-block;
-    margin: 10px;
-    padding: 2%;
+  }
+
+  .alter > * {
+    border: 1px solid $darkMain;
+    padding: 0 2%;
+    position: absolute;
   }
 
   #serena {
     color: $indigoSphere;
-    position: absolute;
-    left: 110px;
-    top: 6px;
+    left: 115px;
+    top: $lineOne;
   }
   #snuffle {
     color: $violetSphere;
-    position: absolute;
     left: 6px;
-    top: 8px;
+    margin-top: 2px;
+    top: $lineOne;
   }
   #baby-zero {
     color: $greenSphere;
-    position: absolute;
     right: 6px;
-    top: 8px;
+    margin-top: 2px;
+    top: $lineOne;
   }
   #clairey {
     color: $greenSphere;
+    left: 6px;
+    top: $lineTwo;
   }
   #katie {
     color: $greenSphere;
+    left: 100px;
+    top: $lineTwo;
   }
   #clarence {
     color: $darkMain;
+    left: 103px;
+    top: $lineThree;
   }
   #charles {
     color: $greenSphere;
+    left: 6px;
+    top: $lineFour;
   }
   #reckmund {
     color: $yellowSphere;
+    left: 120px;
+    top: $lineFour;
   }
   #fuchsia {
     color: $greenSphere;
@@ -58,12 +90,18 @@
   }
   #letitia {
     color: $darkMain;
+    left: 180px;
+    top: $lineFive;
   }
   #lolita-honey {
     color: $yellowSphere;
+    left: 6px;
+    top: $lineSix;
   }
   #loretta-alice {
     color: $redSphere;
+    left: 150px;
+    top: $lineSix;
   }
   #rose {
     color: $orangeSphere;
@@ -103,8 +141,12 @@
   }
   #ava {
     color: $orangeSphere;
+    left: 180px;
+    top: $lineSeven;
   }
   #tara {
     color: $orangeSphere;
+    right: 26px;
+    top: $lineSeven;
   }
 }

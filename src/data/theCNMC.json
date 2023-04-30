@@ -35,7 +35,7 @@
     {
       "id": 3,
       "name": "Baby Zero",
-      "arcana": "Ghost",
+      "arcana": "Minor",
       "cluster": "Morgana",
       "twin": "Serena",
       "spoilBook": "five",
@@ -91,7 +91,7 @@
       "origin": "Serena",
       "gender": "Dead Boy",
       "pronouns": "Was/Were",
-      "created": 1988,
+      "created": 1987,
       "died": 1988,
       "age": null,
       "sphere": null
