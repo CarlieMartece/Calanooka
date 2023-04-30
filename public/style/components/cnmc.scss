@@ -1,0 +1,110 @@
+@use '../abstracts/variables' as *;
+
+#cnmc {
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 320px;
+  * {
+    list-style-type: none;
+  }
+
+  li {
+    background-color: $lightMain;
+    border: 1px solid $darkMain;
+    display: inline-block;
+    margin: 10px;
+    padding: 2%;
+  }
+
+  #serena {
+    color: $indigoSphere;
+    position: absolute;
+    left: 110px;
+    top: 6px;
+  }
+  #snuffle {
+    color: $violetSphere;
+    position: absolute;
+    left: 6px;
+    top: 8px;
+  }
+  #baby-zero {
+    color: $greenSphere;
+    position: absolute;
+    right: 6px;
+    top: 8px;
+  }
+  #clairey {
+    color: $greenSphere;
+  }
+  #katie {
+    color: $greenSphere;
+  }
+  #clarence {
+    color: $darkMain;
+  }
+  #charles {
+    color: $greenSphere;
+  }
+  #reckmund {
+    color: $yellowSphere;
+  }
+  #fuchsia {
+    color: $greenSphere;
+  }
+  #anxia-terra {
+    color: $greenSphere;
+  }
+  #letitia {
+    color: $darkMain;
+  }
+  #lolita-honey {
+    color: $yellowSphere;
+  }
+  #loretta-alice {
+    color: $redSphere;
+  }
+  #rose {
+    color: $orangeSphere;
+  }
+  #katherine {
+    color: $orangeSphere;
+  }
+  #honeysuckle {
+    color: $orangeSphere;
+  }
+  #alicia {
+    color: $redSphere;
+  }
+  #morgana {
+    color: $greenSphere;
+  }
+  #estella {
+    color: $violetSphere;
+  }
+  #jane {
+    color: $orangeSphere;
+  }
+  #kathy {
+    color: $orangeSphere;
+  }
+  #cal {
+    color: $indigoSphere;
+  }
+  #nooka {
+    color: $blueSphere;
+  }
+  #leandra {
+    color: $blueSphere;
+  }
+  #ash {
+    color: $blueSphere;
+  }
+  #ava {
+    color: $orangeSphere;
+  }
+  #tara {
+    color: $orangeSphere;
+  }
+}
