@@ -1,4 +1,5 @@
 #cnmc {
+  height: 750px;
   margin: 0 auto;
   padding: 10px;
   position: relative;
@@ -46,94 +47,123 @@
 #cnmc #clairey {
   color: #119f0b;
   left: 6px;
-  top: 100px;
+  top: 220px;
 }
 #cnmc #katie {
   color: #119f0b;
   left: 100px;
-  top: 100px;
+  top: 220px;
 }
 #cnmc #clarence {
   color: #2c3e50;
-  left: 103px;
-  top: 160px;
+  left: 70px;
+  top: 90px;
 }
 #cnmc #charles {
   color: #119f0b;
-  left: 6px;
-  top: 210px;
+  left: 16px;
+  top: 150px;
 }
 #cnmc #reckmund {
   color: #d2af00;
   left: 120px;
-  top: 210px;
+  top: 150px;
 }
 #cnmc #fuchsia {
   color: #119f0b;
+  left: 26px;
+  top: 280px;
 }
 #cnmc #anxia-terra {
   color: #119f0b;
+  left: 130px;
+  top: 280px;
 }
 #cnmc #letitia {
   color: #2c3e50;
-  left: 180px;
-  top: 270px;
+  left: 220px;
+  top: 340px;
 }
 #cnmc #lolita-honey {
   color: #d2af00;
-  left: 6px;
-  top: 330px;
+  left: 50px;
+  top: 400px;
 }
 #cnmc #loretta-alice {
   color: #fe0000;
-  left: 150px;
-  top: 330px;
+  right: 16px;
+  top: 400px;
 }
 #cnmc #rose {
   color: #fd8c00;
+  left: 6px;
+  top: 340px;
 }
 #cnmc #katherine {
   color: #fd8c00;
+  left: 90px;
+  top: 340px;
 }
 #cnmc #honeysuckle {
   color: #fd8c00;
+  left: 40px;
+  top: 460px;
 }
 #cnmc #alicia {
   color: #fe0000;
+  left: 220px;
+  top: 460px;
 }
 #cnmc #morgana {
   color: #119f0b;
+  left: 6px;
+  top: 530px;
 }
 #cnmc #estella {
   color: #c22edc;
+  left: 180px;
+  top: 530px;
 }
 #cnmc #jane {
   color: #fd8c00;
+  left: 80px;
+  top: 600px;
 }
 #cnmc #kathy {
   color: #fd8c00;
+  left: 220px;
+  top: 600px;
 }
 #cnmc #cal {
   color: #160375;
+  left: 100px;
+  margin-top: 2px;
+  top: 730px;
 }
 #cnmc #nooka {
   color: #528ff9;
+  left: 180px;
+  top: 730px;
 }
 #cnmc #leandra {
   color: #528ff9;
+  left: 70px;
+  top: 660px;
 }
 #cnmc #ash {
   color: #528ff9;
+  left: 255px;
+  top: 660px;
 }
 #cnmc #ava {
   color: #fd8c00;
   left: 180px;
-  top: 390px;
+  top: 90px;
 }
 #cnmc #tara {
   color: #fd8c00;
-  right: 26px;
-  top: 390px;
+  left: 240px;
+  top: 90px;
 }
 
 * {
