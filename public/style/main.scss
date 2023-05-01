@@ -1,11 +1,11 @@
-@use 'abstracts/variables' as *;
-@use 'components/cnmc';
+@use "abstracts/variables" as *;
+@use "components/cnmc";
 
-@mixin gradient($direction, $list) { 
+@mixin gradient($direction, $list) {
   background: -webkit-linear-gradient($direction, $list);
   background: -moz-linear-gradient($direction, $list);
   background: -o-linear-gradient($direction, $list);
-  background: linear-gradient($direction, $list);  
+  background: linear-gradient($direction, $list);
 }
 
 * {
@@ -49,14 +49,20 @@ nav {
 }
 
 main {
+  margin-bottom: 60px;
+  padding: 10px;
 
   h1 {
     font-size: 1.4em;
+  }
+
+  h2 {
+    font-size: 1.2em;
     margin-top: 10px;
+    text-align: left;
   }
 
   p {
     font-size: 0.8em;
   }
-
 }

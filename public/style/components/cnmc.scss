@@ -14,7 +14,7 @@ $lineTwelve: 730px;
 
 #cnmc {
   height: 750px;
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 10px;
   position: relative;
   width: 320px;
@@ -23,7 +23,8 @@ $lineTwelve: 730px;
   }
 
   h2 {
-    margin-bottom: -3px;
+    font-size: 1.4em;
+    margin-top: 4px;
   }
 
   h3 {
@@ -48,19 +49,19 @@ $lineTwelve: 730px;
 
   #serena {
     color: $indigoSphere;
-    left: 115px;
+    left: 112px;
     top: $lineOne;
   }
   #snuffle {
     color: $violetSphere;
     left: 6px;
-    margin-top: 2px;
+    margin-top: 6px;
     top: $lineOne;
   }
   #baby-zero {
     color: $greenSphere;
     right: 6px;
-    margin-top: 2px;
+    margin-top: 6px;
     top: $lineOne;
   }
   #clairey {
