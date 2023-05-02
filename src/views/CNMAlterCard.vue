@@ -1,6 +1,6 @@
 <template>
   <li>
-    <div :class="classes">
+    <div class="alter">
       <div :id="nameToId">
         <div class="front">?</div>
         <div class="back">
@@ -18,13 +18,8 @@ export default {
   props: {
     name: String,
     arcana: String,
-    spoilBook: String,
   },
   computed: {
-    classes() {
-      const spoiler = this.spoilBook;
-      return `alter ${spoiler}`;
-    },
     nameToId() {
       const nameLower = this.name.toLowerCase();
       const nameArray = nameLower.split(" ");

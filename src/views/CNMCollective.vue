@@ -4,32 +4,16 @@
       <h1>The Carlie Nooka Martece Collective</h1>
       <p>(AKA When Autism Masking Got Out Of Hand)</p>
     </header>
-    <h2>Book Five</h2>
-    <ul id="cnmc">
-      <AlterCard
-        v-for="alter in alters"
-        :key="alter.id"
-        :name="alter.name"
-        :arcana="alter.arcana"
-        :spoilBook="alter.spoilBook"
-      />
-    </ul>
+    <CNMBook :spoilBook="5" />
   </main>
 </template>
 
 <script>
-import sourceData from "../data/theCNMC.json";
-import CNMAlterCard from "./CNMAlterCard.vue";
+import CNMBook from "./CNMBook.vue";
 
 export default {
-  data() {
-    return {
-      alters: sourceData.alters,
-    };
-  },
   components: {
-    AlterCard: CNMAlterCard,
+    CNMBook,
   },
 };
-console.log(sourceData.alters);
 </script>
