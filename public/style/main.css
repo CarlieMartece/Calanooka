@@ -1,170 +1,272 @@
-#cnmc {
+#cnmcMob {
   height: 750px;
   margin: 10px auto;
   padding: 10px;
   position: relative;
   width: 320px;
 }
-#cnmc * {
+#cnmcMob * {
   list-style-type: none;
 }
-#cnmc h2 {
+#cnmcMob h2 {
   font-size: 1.4em;
-  margin-top: 4px;
+  margin-top: 2px;
 }
-#cnmc h3 {
-  margin-bottom: -4px;
-}
-#cnmc h4 {
-  margin-bottom: -6px;
+#cnmcMob h4 {
   text-decoration: line-through;
 }
-#cnmc li * {
+#cnmcMob li * {
   background-color: #f8eeff;
-  display: inline-block;
 }
-#cnmc .alter > * {
+#cnmcMob .one #serena .cover, #cnmcMob .one #clairey .cover, #cnmcMob .one #katie .cover, #cnmcMob .one #fuchsia .cover, #cnmcMob .one #anxia-terra .cover, #cnmcMob .one #rose .cover, #cnmcMob .one #katherine .cover, #cnmcMob .one #honeysuckle .cover, #cnmcMob .one #alicia .cover, #cnmcMob .one #morgana .cover, #cnmcMob .one #estella .cover, #cnmcMob .one #jane .cover, #cnmcMob .one #kathy .cover {
+  display: none;
+}
+#cnmcMob .one #snuffle .alterName, #cnmcMob .one #baby-zero .alterName, #cnmcMob .one #clarence .alterName, #cnmcMob .one #charles .alterName, #cnmcMob .one #reckmund .alterName, #cnmcMob .one #ava .alterName, #cnmcMob .one #tara .alterName, #cnmcMob .one #letitia .alterName, #cnmcMob .one #lolita-honey .alterName, #cnmcMob .one #loretta-alice .alterName, #cnmcMob .one #leandra .alterName, #cnmcMob .one #ash .alterName, #cnmcMob .one #cal .alterName, #cnmcMob .one #nooka .alterName {
+  display: none;
+}
+#cnmcMob .three #serena .cover, #cnmcMob .three #clairey .cover, #cnmcMob .three #katie .cover, #cnmcMob .three #fuchsia .cover, #cnmcMob .three #anxia-terra .cover, #cnmcMob .three #rose .cover, #cnmcMob .three #katherine .cover, #cnmcMob .three #honeysuckle .cover, #cnmcMob .three #alicia .cover, #cnmcMob .three #morgana .cover, #cnmcMob .three #estella .cover, #cnmcMob .three #jane .cover, #cnmcMob .three #kathy .cover, #cnmcMob .three #leandra .cover, #cnmcMob .three #ash .cover, #cnmcMob .three #cal .cover {
+  display: none;
+}
+#cnmcMob .three #snuffle .alterName, #cnmcMob .three #baby-zero .alterName, #cnmcMob .three #clarence .alterName, #cnmcMob .three #charles .alterName, #cnmcMob .three #reckmund .alterName, #cnmcMob .three #ava .alterName, #cnmcMob .three #tara .alterName, #cnmcMob .three #letitia .alterName, #cnmcMob .three #lolita-honey .alterName, #cnmcMob .three #loretta-alice .alterName, #cnmcMob .three #nooka .alterName {
+  display: none;
+}
+#cnmcMob .four #serena .cover, #cnmcMob .four #clairey .cover, #cnmcMob .four #katie .cover, #cnmcMob .four #fuchsia .cover, #cnmcMob .four #anxia-terra .cover, #cnmcMob .four #rose .cover, #cnmcMob .four #katherine .cover, #cnmcMob .four #honeysuckle .cover, #cnmcMob .four #alicia .cover, #cnmcMob .four #morgana .cover, #cnmcMob .four #estella .cover, #cnmcMob .four #jane .cover, #cnmcMob .four #kathy .cover, #cnmcMob .four #leandra .cover, #cnmcMob .four #ash .cover, #cnmcMob .four #ava .cover, #cnmcMob .four #tara .cover, #cnmcMob .four #letitia .cover, #cnmcMob .four #lolita-honey .cover, #cnmcMob .four #loretta-alice .cover, #cnmcMob .four #cal .cover {
+  display: none;
+}
+#cnmcMob .four #snuffle .alterName, #cnmcMob .four #baby-zero .alterName, #cnmcMob .four #clarence .alterName, #cnmcMob .four #charles .alterName, #cnmcMob .four #reckmund .alterName, #cnmcMob .four #nooka .alterName {
+  display: none;
+}
+#cnmcMob .five .cover {
+  display: none;
+}
+#cnmcMob .alter > * {
   border: 1px solid #2c3e50;
   padding: 0 2%;
   position: absolute;
 }
-#cnmc .five #serena {
-  color: #160375;
+#cnmcMob .cover {
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 40px;
+}
+#cnmcMob #serena {
   left: 112px;
   top: 10px;
 }
-#cnmc .five #snuffle {
-  color: #c22edc;
+#cnmcMob #snuffle {
   left: 6px;
   margin-top: 6px;
   top: 10px;
 }
-#cnmc .five #baby-zero {
-  color: #119f0b;
+#cnmcMob #baby-zero {
   right: 6px;
   margin-top: 6px;
   top: 10px;
 }
-#cnmc .five #clairey {
-  color: #119f0b;
+#cnmcMob #clairey {
   left: 6px;
   top: 220px;
 }
-#cnmc .five #katie {
-  color: #119f0b;
+#cnmcMob #katie {
   left: 100px;
   top: 220px;
 }
-#cnmc .five #clarence {
-  color: #2c3e50;
+#cnmcMob #clarence {
   left: 70px;
   top: 90px;
 }
-#cnmc .five #charles {
-  color: #119f0b;
+#cnmcMob #charles {
   left: 16px;
   top: 150px;
 }
-#cnmc .five #reckmund {
-  color: #d2af00;
+#cnmcMob #reckmund {
   left: 120px;
   top: 150px;
 }
-#cnmc .five #fuchsia {
-  color: #119f0b;
+#cnmcMob #fuchsia {
   left: 26px;
   top: 280px;
 }
-#cnmc .five #anxia-terra {
-  color: #119f0b;
+#cnmcMob #anxia-terra {
   left: 130px;
   top: 280px;
 }
-#cnmc .five #letitia {
-  color: #2c3e50;
+#cnmcMob #letitia {
   left: 220px;
   top: 340px;
 }
-#cnmc .five #lolita-honey {
-  color: #d2af00;
+#cnmcMob #lolita-honey {
   left: 50px;
   top: 400px;
 }
-#cnmc .five #loretta-alice {
-  color: #fe0000;
+#cnmcMob #loretta-alice {
   right: 16px;
   top: 400px;
 }
-#cnmc .five #rose {
-  color: #fd8c00;
+#cnmcMob #rose {
   left: 6px;
   top: 340px;
 }
-#cnmc .five #katherine {
-  color: #fd8c00;
+#cnmcMob #katherine {
   left: 90px;
   top: 340px;
 }
-#cnmc .five #honeysuckle {
-  color: #fd8c00;
+#cnmcMob #honeysuckle {
   left: 40px;
   top: 460px;
 }
-#cnmc .five #alicia {
-  color: #fe0000;
+#cnmcMob #alicia {
   left: 220px;
   top: 460px;
 }
-#cnmc .five #morgana {
-  color: #119f0b;
+#cnmcMob #morgana {
   left: 6px;
   top: 530px;
 }
-#cnmc .five #estella {
-  color: #c22edc;
+#cnmcMob #estella {
   left: 180px;
   top: 530px;
 }
-#cnmc .five #jane {
-  color: #fd8c00;
+#cnmcMob #jane {
   left: 80px;
   top: 600px;
 }
-#cnmc .five #kathy {
-  color: #fd8c00;
+#cnmcMob #kathy {
   left: 220px;
   top: 600px;
 }
-#cnmc .five #cal {
-  color: #160375;
+#cnmcMob #cal {
   left: 100px;
   margin-top: 2px;
   top: 730px;
 }
-#cnmc .five #nooka {
-  color: #528ff9;
+#cnmcMob #nooka {
   left: 180px;
   top: 730px;
 }
-#cnmc .five #leandra {
-  color: #528ff9;
+#cnmcMob #leandra {
   left: 70px;
   top: 660px;
 }
-#cnmc .five #ash {
-  color: #528ff9;
+#cnmcMob #ash {
   left: 255px;
   top: 660px;
 }
-#cnmc .five #ava {
-  color: #fd8c00;
+#cnmcMob #ava {
   left: 180px;
   top: 90px;
 }
-#cnmc .five #tara {
-  color: #fd8c00;
+#cnmcMob #tara {
   left: 240px;
   top: 90px;
+}
+
+#serena {
+  color: #160375;
+}
+
+#snuffle {
+  color: #c22edc;
+}
+
+#baby-zero {
+  color: #119f0b;
+}
+
+#clairey {
+  color: #119f0b;
+}
+
+#katie {
+  color: #119f0b;
+}
+
+#clarence {
+  color: #2c3e50;
+}
+
+#charles {
+  color: #119f0b;
+}
+
+#reckmund {
+  color: #d2af00;
+}
+
+#fuchsia {
+  color: #119f0b;
+}
+
+#anxia-terra {
+  color: #119f0b;
+}
+
+#letitia {
+  color: #2c3e50;
+}
+
+#lolita-honey {
+  color: #d2af00;
+}
+
+#loretta-alice {
+  color: #fe0000;
+}
+
+#rose {
+  color: #fd8c00;
+}
+
+#katherine {
+  color: #fd8c00;
+}
+
+#honeysuckle {
+  color: #fd8c00;
+}
+
+#alicia {
+  color: #fe0000;
+}
+
+#morgana {
+  color: #119f0b;
+}
+
+#estella {
+  color: #c22edc;
+}
+
+#jane {
+  color: #fd8c00;
+}
+
+#kathy {
+  color: #fd8c00;
+}
+
+#cal {
+  color: #160375;
+}
+
+#nooka {
+  color: #528ff9;
+}
+
+#leandra {
+  color: #528ff9;
+}
+
+#ash {
+  color: #528ff9;
+}
+
+#ava {
+  color: #fd8c00;
+}
+
+#tara {
+  color: #fd8c00;
 }
 
 * {

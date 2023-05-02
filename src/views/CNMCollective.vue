@@ -4,16 +4,34 @@
       <h1>The Carlie Nooka Martece Collective</h1>
       <p>(AKA When Autism Masking Got Out Of Hand)</p>
     </header>
-    <CNMBook :spoilBook="5" />
+    <CNMBookMob v-if="windowWidth < 650" :spoilBook="5" />
   </main>
 </template>
 
 <script>
-import CNMBook from "./CNMBook.vue";
+import CNMBookMob from "./CNMBookMob.vue";
 
 export default {
   components: {
-    CNMBook,
+    CNMBookMob,
+  },
+  data() {
+    return {
+      windowWidth: window.innerWidth,
+    };
+  },
+  mounted() {
+    this.$nextTick(() => {
+      window.addEventListener("resize", this.onResize);
+    });
+  },
+  beforeUnmount() {
+    window.removeEventListener("resize", this.onResize);
+  },
+  methods: {
+    onResize() {
+      this.windowWidth = window.innerWidth;
+    },
   },
 };
 </script>

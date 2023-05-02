@@ -1,6 +1,6 @@
 <template>
   <h2>Book {{ bookNumToStr }}</h2>
-  <ul id="cnmc">
+  <ul id="cnmcMob">
     <AlterCard
       v-for="alter in alters"
       :key="alter.id"
@@ -44,5 +44,4 @@ export default {
     },
   },
 };
-console.log(sourceData.alters);
 </script>
