@@ -1,11 +1,32 @@
 @use "../abstracts/variables" as *;
 
-
 #cnmcMob {
+  position: relative;
+}
+
+#cnmcMobLinesAH {
+
+  * {
+    z-index: 4;
+  }
+  
+  .line-across-hereditary > * {
+    background-color: $darkMain;
+    height: 1px;
+    position: absolute;
+  }
+
+  #lah01 {
+    width: 300px;
+    top: 70px;
+    right: 6px;
+  }
+}
+
+#cnmcMobCards {
   height: 750px;
   margin: 10px auto;
   padding: 10px;
-  position: relative;
   width: 320px;
   * {
     list-style-type: none;
@@ -22,6 +43,7 @@
 
   li * {
     background-color: $lightMain;
+    z-index: 5;
   }
 
   .one {

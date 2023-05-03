@@ -1,162 +1,180 @@
 #cnmcMob {
+  position: relative;
+}
+
+#cnmcMobLinesAH * {
+  z-index: 4;
+}
+#cnmcMobLinesAH .line-across-hereditary > * {
+  background-color: #2c3e50;
+  height: 1px;
+  position: absolute;
+}
+#cnmcMobLinesAH #lah01 {
+  width: 300px;
+  top: 70px;
+  right: 6px;
+}
+
+#cnmcMobCards {
   height: 750px;
   margin: 10px auto;
   padding: 10px;
-  position: relative;
   width: 320px;
 }
-#cnmcMob * {
+#cnmcMobCards * {
   list-style-type: none;
 }
-#cnmcMob h2 {
+#cnmcMobCards h2 {
   font-size: 1.4em;
   margin-top: 2px;
 }
-#cnmcMob h4 {
+#cnmcMobCards h4 {
   text-decoration: line-through;
 }
-#cnmcMob li * {
+#cnmcMobCards li * {
   background-color: #f8eeff;
+  z-index: 5;
 }
-#cnmcMob .one #serena .cover, #cnmcMob .one #clairey .cover, #cnmcMob .one #katie .cover, #cnmcMob .one #fuchsia .cover, #cnmcMob .one #anxia-terra .cover, #cnmcMob .one #rose .cover, #cnmcMob .one #katherine .cover, #cnmcMob .one #honeysuckle .cover, #cnmcMob .one #alicia .cover, #cnmcMob .one #morgana .cover, #cnmcMob .one #estella .cover, #cnmcMob .one #jane .cover, #cnmcMob .one #kathy .cover {
+#cnmcMobCards .one #serena .cover, #cnmcMobCards .one #clairey .cover, #cnmcMobCards .one #katie .cover, #cnmcMobCards .one #fuchsia .cover, #cnmcMobCards .one #anxia-terra .cover, #cnmcMobCards .one #rose .cover, #cnmcMobCards .one #katherine .cover, #cnmcMobCards .one #honeysuckle .cover, #cnmcMobCards .one #alicia .cover, #cnmcMobCards .one #morgana .cover, #cnmcMobCards .one #estella .cover, #cnmcMobCards .one #jane .cover, #cnmcMobCards .one #kathy .cover {
   display: none;
 }
-#cnmcMob .one #snuffle .alterName, #cnmcMob .one #baby-zero .alterName, #cnmcMob .one #clarence .alterName, #cnmcMob .one #charles .alterName, #cnmcMob .one #reckmund .alterName, #cnmcMob .one #ava .alterName, #cnmcMob .one #tara .alterName, #cnmcMob .one #letitia .alterName, #cnmcMob .one #lolita-honey .alterName, #cnmcMob .one #loretta-alice .alterName, #cnmcMob .one #leandra .alterName, #cnmcMob .one #ash .alterName, #cnmcMob .one #cal .alterName, #cnmcMob .one #nooka .alterName {
+#cnmcMobCards .one #snuffle .alterName, #cnmcMobCards .one #baby-zero .alterName, #cnmcMobCards .one #clarence .alterName, #cnmcMobCards .one #charles .alterName, #cnmcMobCards .one #reckmund .alterName, #cnmcMobCards .one #ava .alterName, #cnmcMobCards .one #tara .alterName, #cnmcMobCards .one #letitia .alterName, #cnmcMobCards .one #lolita-honey .alterName, #cnmcMobCards .one #loretta-alice .alterName, #cnmcMobCards .one #leandra .alterName, #cnmcMobCards .one #ash .alterName, #cnmcMobCards .one #cal .alterName, #cnmcMobCards .one #nooka .alterName {
   display: none;
 }
-#cnmcMob .three #serena .cover, #cnmcMob .three #clairey .cover, #cnmcMob .three #katie .cover, #cnmcMob .three #fuchsia .cover, #cnmcMob .three #anxia-terra .cover, #cnmcMob .three #rose .cover, #cnmcMob .three #katherine .cover, #cnmcMob .three #honeysuckle .cover, #cnmcMob .three #alicia .cover, #cnmcMob .three #morgana .cover, #cnmcMob .three #estella .cover, #cnmcMob .three #jane .cover, #cnmcMob .three #kathy .cover, #cnmcMob .three #leandra .cover, #cnmcMob .three #ash .cover, #cnmcMob .three #cal .cover {
+#cnmcMobCards .three #serena .cover, #cnmcMobCards .three #clairey .cover, #cnmcMobCards .three #katie .cover, #cnmcMobCards .three #fuchsia .cover, #cnmcMobCards .three #anxia-terra .cover, #cnmcMobCards .three #rose .cover, #cnmcMobCards .three #katherine .cover, #cnmcMobCards .three #honeysuckle .cover, #cnmcMobCards .three #alicia .cover, #cnmcMobCards .three #morgana .cover, #cnmcMobCards .three #estella .cover, #cnmcMobCards .three #jane .cover, #cnmcMobCards .three #kathy .cover, #cnmcMobCards .three #leandra .cover, #cnmcMobCards .three #ash .cover, #cnmcMobCards .three #cal .cover {
   display: none;
 }
-#cnmcMob .three #snuffle .alterName, #cnmcMob .three #baby-zero .alterName, #cnmcMob .three #clarence .alterName, #cnmcMob .three #charles .alterName, #cnmcMob .three #reckmund .alterName, #cnmcMob .three #ava .alterName, #cnmcMob .three #tara .alterName, #cnmcMob .three #letitia .alterName, #cnmcMob .three #lolita-honey .alterName, #cnmcMob .three #loretta-alice .alterName, #cnmcMob .three #nooka .alterName {
+#cnmcMobCards .three #snuffle .alterName, #cnmcMobCards .three #baby-zero .alterName, #cnmcMobCards .three #clarence .alterName, #cnmcMobCards .three #charles .alterName, #cnmcMobCards .three #reckmund .alterName, #cnmcMobCards .three #ava .alterName, #cnmcMobCards .three #tara .alterName, #cnmcMobCards .three #letitia .alterName, #cnmcMobCards .three #lolita-honey .alterName, #cnmcMobCards .three #loretta-alice .alterName, #cnmcMobCards .three #nooka .alterName {
   display: none;
 }
-#cnmcMob .four #serena .cover, #cnmcMob .four #clairey .cover, #cnmcMob .four #katie .cover, #cnmcMob .four #fuchsia .cover, #cnmcMob .four #anxia-terra .cover, #cnmcMob .four #rose .cover, #cnmcMob .four #katherine .cover, #cnmcMob .four #honeysuckle .cover, #cnmcMob .four #alicia .cover, #cnmcMob .four #morgana .cover, #cnmcMob .four #estella .cover, #cnmcMob .four #jane .cover, #cnmcMob .four #kathy .cover, #cnmcMob .four #leandra .cover, #cnmcMob .four #ash .cover, #cnmcMob .four #ava .cover, #cnmcMob .four #tara .cover, #cnmcMob .four #letitia .cover, #cnmcMob .four #lolita-honey .cover, #cnmcMob .four #loretta-alice .cover, #cnmcMob .four #cal .cover {
+#cnmcMobCards .four #serena .cover, #cnmcMobCards .four #clairey .cover, #cnmcMobCards .four #katie .cover, #cnmcMobCards .four #fuchsia .cover, #cnmcMobCards .four #anxia-terra .cover, #cnmcMobCards .four #rose .cover, #cnmcMobCards .four #katherine .cover, #cnmcMobCards .four #honeysuckle .cover, #cnmcMobCards .four #alicia .cover, #cnmcMobCards .four #morgana .cover, #cnmcMobCards .four #estella .cover, #cnmcMobCards .four #jane .cover, #cnmcMobCards .four #kathy .cover, #cnmcMobCards .four #leandra .cover, #cnmcMobCards .four #ash .cover, #cnmcMobCards .four #ava .cover, #cnmcMobCards .four #tara .cover, #cnmcMobCards .four #letitia .cover, #cnmcMobCards .four #lolita-honey .cover, #cnmcMobCards .four #loretta-alice .cover, #cnmcMobCards .four #cal .cover {
   display: none;
 }
-#cnmcMob .four #snuffle .alterName, #cnmcMob .four #baby-zero .alterName, #cnmcMob .four #clarence .alterName, #cnmcMob .four #charles .alterName, #cnmcMob .four #reckmund .alterName, #cnmcMob .four #nooka .alterName {
+#cnmcMobCards .four #snuffle .alterName, #cnmcMobCards .four #baby-zero .alterName, #cnmcMobCards .four #clarence .alterName, #cnmcMobCards .four #charles .alterName, #cnmcMobCards .four #reckmund .alterName, #cnmcMobCards .four #nooka .alterName {
   display: none;
 }
-#cnmcMob .five .cover {
+#cnmcMobCards .five .cover {
   display: none;
 }
-#cnmcMob .alter > * {
+#cnmcMobCards .alter > * {
   border: 1px solid #2c3e50;
   padding: 0 2%;
   position: absolute;
 }
-#cnmcMob .cover {
+#cnmcMobCards .cover {
   font-size: 1.2em;
   font-weight: bold;
   width: 40px;
 }
-#cnmcMob #serena {
+#cnmcMobCards #serena {
   left: 112px;
   top: 10px;
 }
-#cnmcMob #snuffle {
+#cnmcMobCards #snuffle {
   left: 6px;
   margin-top: 6px;
   top: 10px;
 }
-#cnmcMob #baby-zero {
+#cnmcMobCards #baby-zero {
   right: 6px;
   margin-top: 6px;
   top: 10px;
 }
-#cnmcMob #clairey {
+#cnmcMobCards #clairey {
   left: 6px;
   top: 220px;
 }
-#cnmcMob #katie {
+#cnmcMobCards #katie {
   left: 100px;
   top: 220px;
 }
-#cnmcMob #clarence {
+#cnmcMobCards #clarence {
   left: 70px;
   top: 90px;
 }
-#cnmcMob #charles {
+#cnmcMobCards #charles {
   left: 16px;
   top: 150px;
 }
-#cnmcMob #reckmund {
+#cnmcMobCards #reckmund {
   left: 120px;
   top: 150px;
 }
-#cnmcMob #fuchsia {
+#cnmcMobCards #fuchsia {
   left: 26px;
   top: 280px;
 }
-#cnmcMob #anxia-terra {
+#cnmcMobCards #anxia-terra {
   left: 130px;
   top: 280px;
 }
-#cnmcMob #letitia {
+#cnmcMobCards #letitia {
   left: 220px;
   top: 340px;
 }
-#cnmcMob #lolita-honey {
+#cnmcMobCards #lolita-honey {
   left: 50px;
   top: 400px;
 }
-#cnmcMob #loretta-alice {
+#cnmcMobCards #loretta-alice {
   right: 16px;
   top: 400px;
 }
-#cnmcMob #rose {
+#cnmcMobCards #rose {
   left: 6px;
   top: 340px;
 }
-#cnmcMob #katherine {
+#cnmcMobCards #katherine {
   left: 90px;
   top: 340px;
 }
-#cnmcMob #honeysuckle {
+#cnmcMobCards #honeysuckle {
   left: 40px;
   top: 460px;
 }
-#cnmcMob #alicia {
+#cnmcMobCards #alicia {
   left: 220px;
   top: 460px;
 }
-#cnmcMob #morgana {
+#cnmcMobCards #morgana {
   left: 6px;
   top: 530px;
 }
-#cnmcMob #estella {
+#cnmcMobCards #estella {
   left: 180px;
   top: 530px;
 }
-#cnmcMob #jane {
+#cnmcMobCards #jane {
   left: 80px;
   top: 600px;
 }
-#cnmcMob #kathy {
+#cnmcMobCards #kathy {
   left: 220px;
   top: 600px;
 }
-#cnmcMob #cal {
+#cnmcMobCards #cal {
   left: 100px;
   margin-top: 2px;
   top: 730px;
 }
-#cnmcMob #nooka {
+#cnmcMobCards #nooka {
   left: 180px;
   top: 730px;
 }
-#cnmcMob #leandra {
+#cnmcMobCards #leandra {
   left: 70px;
   top: 660px;
 }
-#cnmcMob #ash {
+#cnmcMobCards #ash {
   left: 255px;
   top: 660px;
 }
-#cnmcMob #ava {
+#cnmcMobCards #ava {
   left: 180px;
   top: 90px;
 }
-#cnmcMob #tara {
+#cnmcMobCards #tara {
   left: 240px;
   top: 90px;
 }
