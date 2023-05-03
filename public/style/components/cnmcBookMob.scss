@@ -12,13 +12,48 @@
   
   .line-across-hereditary > * {
     background-color: $darkMain;
-    height: 1px;
+    height: 2px;
     position: absolute;
   }
 
-  #lah01 {
-    width: 300px;
-    top: 70px;
+  #lahMob01 {
+    top: 66px;
+    left: 0px;
+    right: 6px;
+  }
+  #lahMob02 {
+    width: 70px;
+    top: 130px;
+    left: 75px;
+  }
+  #lahMob03 {
+    width: 35px;
+    top: 262px;
+    left: 14px;
+  }
+  #lahMob04 {
+    width: 35px;
+    top: 262px;
+    left: 120px;
+  }
+  #lahMob05 {
+    width: 90px;
+    top: 382px;
+    left: 160px;
+  }
+  #lahMob06 {
+    width: 80px;
+    top: 510px;
+    left: 85px;
+  }
+  #lahMob07 {
+    width: 80px;
+    top: 510px;
+    left: 235px;
+  }
+  #lahMob08 {
+    top: 710px;
+    left: 50px;
     right: 6px;
   }
 }
@@ -104,7 +139,7 @@
   }
 
   #serena {
-    left: 112px;
+    left: 120px;
     top: $mobLineOne;
   }
   #snuffle {
@@ -154,7 +189,7 @@
     top: $mobLineSeven;
   }
   #loretta-alice {
-    right: 16px;
+    right: 26px;
     top: $mobLineSeven;
   }
   #rose {
