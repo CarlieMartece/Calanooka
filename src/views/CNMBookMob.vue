@@ -7,7 +7,7 @@
       </li>
     </ul>
     <ul id="cnmcMobLinesDH">
-      <li v-for="index in 26" :key="index" class="line-down-hereditary">
+      <li v-for="index in 27" :key="index" class="line-down-hereditary">
         <div :id="`ldhMob${index}`"></div>
       </li>
     </ul>

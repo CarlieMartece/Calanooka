@@ -31,9 +31,9 @@
   left: 120px;
 }
 #cnmcMobLinesAH #lahMob5 {
-  width: 90px;
+  width: 129px;
   top: 382px;
-  left: 190px;
+  right: 38px;
 }
 #cnmcMobLinesAH #lahMob6 {
   width: 80px;
@@ -76,18 +76,123 @@
 }
 #cnmcMobLinesDH #ldhMob4 {
   top: 66px;
-  left: 244px;
+  left: 239px;
   height: 37px;
 }
 #cnmcMobLinesDH #ldhMob5 {
   top: 66px;
-  right: 33px;
-  height: 290px;
+  right: 38px;
+  height: 318px;
 }
 #cnmcMobLinesDH #ldhMob6 {
   top: 66px;
   right: 3px;
   height: 646px;
+}
+#cnmcMobLinesDH #ldhMob7 {
+  top: 200px;
+  left: 90px;
+  height: 30px;
+}
+#cnmcMobLinesDH #ldhMob8 {
+  top: 245px;
+  left: 32px;
+  height: 18px;
+}
+#cnmcMobLinesDH #ldhMob9 {
+  top: 245px;
+  left: 137px;
+  height: 18px;
+}
+#cnmcMobLinesDH #ldhMob10 {
+  top: 263px;
+  left: 14px;
+  height: 73px;
+}
+#cnmcMobLinesDH #ldhMob11 {
+  top: 263px;
+  left: 47px;
+  height: 40px;
+}
+#cnmcMobLinesDH #ldhMob12 {
+  top: 263px;
+  left: 120px;
+  height: 73px;
+}
+#cnmcMobLinesDH #ldhMob13 {
+  top: 263px;
+  left: 153px;
+  height: 40px;
+}
+#cnmcMobLinesDH #ldhMob14 {
+  top: 383px;
+  left: 188px;
+  height: 29px;
+}
+#cnmcMobLinesDH #ldhMob15 {
+  top: 420px;
+  left: 110px;
+  height: 90px;
+}
+#cnmcMobLinesDH #ldhMob16 {
+  top: 420px;
+  left: 255px;
+  height: 90px;
+}
+#cnmcMobLinesDH #ldhMob17 {
+  top: 510px;
+  left: 85px;
+  height: 30px;
+}
+#cnmcMobLinesDH #ldhMob18 {
+  top: 510px;
+  left: 125px;
+  height: 110px;
+}
+#cnmcMobLinesDH #ldhMob19 {
+  top: 510px;
+  left: 145px;
+  height: 150px;
+}
+#cnmcMobLinesDH #ldhMob20 {
+  top: 510px;
+  left: 165px;
+  height: 200px;
+}
+#cnmcMobLinesDH #ldhMob21 {
+  top: 510px;
+  left: 235px;
+  height: 30px;
+}
+#cnmcMobLinesDH #ldhMob22 {
+  top: 510px;
+  left: 275px;
+  height: 110px;
+}
+#cnmcMobLinesDH #ldhMob23 {
+  top: 510px;
+  left: 295px;
+  height: 150px;
+}
+#cnmcMobLinesDH #ldhMob24 {
+  top: 510px;
+  left: 315px;
+  height: 200px;
+}
+#cnmcMobLinesDH #ldhMob25 {
+  top: 540px;
+  left: 50px;
+  height: 170px;
+}
+#cnmcMobLinesDH #ldhMob26 {
+  top: 540px;
+  left: 202px;
+  height: 170px;
+}
+#cnmcMobLinesDH #ldhMob27 {
+  top: 710px;
+  left: 183px;
+  height: 36px;
 }
 
 #cnmcMobCards {
@@ -184,7 +289,7 @@
   top: 280px;
 }
 #cnmcMobCards #letitia {
-  right: 26px;
+  right: 16px;
   top: 340px;
 }
 #cnmcMobCards #lolita-honey {
@@ -196,10 +301,12 @@
   top: 400px;
 }
 #cnmcMobCards #rose {
+  margin-top: -5px;
   left: 6px;
   top: 340px;
 }
 #cnmcMobCards #katherine {
+  margin-top: -5px;
   left: 90px;
   top: 340px;
 }
@@ -228,12 +335,12 @@
   top: 600px;
 }
 #cnmcMobCards #cal {
-  left: 100px;
+  left: 128px;
   margin-top: 2px;
   top: 730px;
 }
 #cnmcMobCards #nooka {
-  left: 180px;
+  left: 196px;
   top: 730px;
 }
 #cnmcMobCards #leandra {
@@ -245,11 +352,11 @@
   top: 660px;
 }
 #cnmcMobCards #ava {
-  left: 185px;
+  left: 180px;
   top: 90px;
 }
 #cnmcMobCards #tara {
-  left: 255px;
+  left: 250px;
   top: 90px;
 }
 

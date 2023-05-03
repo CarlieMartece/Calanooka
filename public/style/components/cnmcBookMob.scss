@@ -34,9 +34,9 @@
     left: 120px;
   }
   #lahMob5 {
-    width: 90px;
+    width: 129px;
     top: 382px;
-    left: 190px;
+    right: 38px;
   }
   #lahMob6 {
     width: 80px;
@@ -81,18 +81,123 @@
   }
   #ldhMob4 {
     top: 66px;
-    left: 244px;
+    left: 239px;
     height: 37px;
   }
   #ldhMob5 {
     top: 66px;
-    right: 33px;
-    height: 290px;
+    right: 38px;
+    height: 318px;
   }
   #ldhMob6 {
     top: 66px;
     right: 3px;
     height: 646px;
+  }
+  #ldhMob7 {
+    top: 200px;
+    left: 90px;
+    height: 30px;
+  }
+  #ldhMob8 {
+    top: 245px;
+    left: 32px;
+    height: 18px;
+  }
+  #ldhMob9 {
+    top: 245px;
+    left: 137px;
+    height: 18px;
+  }
+  #ldhMob10 {
+    top: 263px;
+    left: 14px;
+    height: 73px;
+  }
+  #ldhMob11 {
+    top: 263px;
+    left: 47px;
+    height: 40px;
+  }
+  #ldhMob12 {
+    top: 263px;
+    left: 120px;
+    height: 73px;
+  }
+  #ldhMob13 {
+    top: 263px;
+    left: 153px;
+    height: 40px;
+  }
+  #ldhMob14 {
+    top: 383px;
+    left: 188px;
+    height: 29px;
+  }
+  #ldhMob15 {
+    top: 420px;
+    left: 110px;
+    height: 90px;
+  }
+  #ldhMob16 {
+    top: 420px;
+    left: 255px;
+    height: 90px;
+  }
+  #ldhMob17 {
+    top: 510px;
+    left: 85px;
+    height: 30px;
+  }
+  #ldhMob18 {
+    top: 510px;
+    left: 125px;
+    height: 110px;
+  }
+  #ldhMob19 {
+    top: 510px;
+    left: 145px;
+    height: 150px;
+  }
+  #ldhMob20 {
+    top: 510px;
+    left: 165px;
+    height: 200px;
+  }
+  #ldhMob21 {
+    top: 510px;
+    left: 235px;
+    height: 30px;
+  }
+  #ldhMob22 {
+    top: 510px;
+    left: 275px;
+    height: 110px;
+  }
+  #ldhMob23 {
+    top: 510px;
+    left: 295px;
+    height: 150px;
+  }
+  #ldhMob24 {
+    top: 510px;
+    left: 315px;
+    height: 200px;
+  }
+  #ldhMob25 {
+    top: 540px;
+    left: 50px;
+    height: 170px;
+  }
+  #ldhMob26 {
+    top: 540px;
+    left: 202px;
+    height: 170px;
+  }
+  #ldhMob27 {
+    top: 710px;
+    left: 183px;
+    height: 36px;
   }
 }
 
@@ -219,7 +324,7 @@
     top: $mobLineFive;
   }
   #letitia {
-    right: 26px;
+    right: 16px;
     top: $mobLineSix;
   }
   #lolita-honey {
@@ -231,10 +336,12 @@
     top: $mobLineSeven;
   }
   #rose {
+    margin-top: -5px;
     left: 6px;
     top: $mobLineSix;
   }
   #katherine {
+    margin-top: -5px;
     left: 90px;
     top: $mobLineSix;
   }
@@ -263,12 +370,12 @@
     top: $mobLineTen;
   }
   #cal {
-    left: 100px;
+    left: 128px;
     margin-top: 2px;
     top: $mobLineTwelve;
   }
   #nooka {
-    left: 180px;
+    left: 196px;
     top: $mobLineTwelve;
   }
   #leandra {
@@ -280,11 +387,11 @@
     top: $mobLineEleven;
   }
   #ava {
-    left: 185px;
+    left: 180px;
     top: $mobLineTwo;
   }
   #tara {
-    left: 255px;
+    left: 250px;
     top: $mobLineTwo;
   }
 }
