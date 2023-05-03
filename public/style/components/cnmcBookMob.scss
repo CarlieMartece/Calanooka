@@ -5,26 +5,23 @@
 }
 
 #cnmcMobLinesAH {
-
   * {
     z-index: 4;
   }
-  
   .line-across-hereditary > * {
     background-color: $darkMain;
     height: 2px;
     position: absolute;
   }
-
   #lahMob01 {
     top: 66px;
-    left: 0px;
-    right: 6px;
+    left: 3px;
+    right: 3px;
   }
   #lahMob02 {
-    width: 70px;
-    top: 130px;
-    left: 75px;
+    width: 87px;
+    top: 200px;
+    left: 3px;
   }
   #lahMob03 {
     width: 35px;
@@ -39,7 +36,7 @@
   #lahMob05 {
     width: 90px;
     top: 382px;
-    left: 160px;
+    left: 190px;
   }
   #lahMob06 {
     width: 80px;
@@ -54,7 +51,48 @@
   #lahMob08 {
     top: 710px;
     left: 50px;
-    right: 6px;
+    right: 4px;
+  }
+}
+
+#cnmcMobLinesDH {
+  * {
+    z-index: 3;
+  }
+  .line-down-hereditary > * {
+    background-color: $darkMain;
+    width: 2px;
+    position: absolute;
+  }
+  #ldhMob01 {
+    top: 44px;
+    left: 162px;
+    height: 22px;
+  }
+  #ldhMob02 {
+    top: 66px;
+    left: 3px;
+    height: 135px;
+  }
+  #ldhMob03 {
+    top: 66px;
+    left: 108px;
+    height: 95px;
+  }
+  #ldhMob04 {
+    top: 66px;
+    left: 244px;
+    height: 37px;
+  }
+  #ldhMob05 {
+    top: 66px;
+    right: 33px;
+    height: 290px;
+  }
+  #ldhMob06 {
+    top: 66px;
+    right: 3px;
+    height: 646px;
   }
 }
 
@@ -181,7 +219,7 @@
     top: $mobLineFive;
   }
   #letitia {
-    left: 220px;
+    right: 26px;
     top: $mobLineSix;
   }
   #lolita-honey {
@@ -242,11 +280,11 @@
     top: $mobLineEleven;
   }
   #ava {
-    left: 180px;
+    left: 185px;
     top: $mobLineTwo;
   }
   #tara {
-    left: 240px;
+    left: 255px;
     top: $mobLineTwo;
   }
 }

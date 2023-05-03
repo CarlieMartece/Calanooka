@@ -6,6 +6,11 @@
         <div :id="line.id"></div>
       </li>
     </ul>
+    <ul id="cnmcMobLinesDH">
+      <li v-for="line in linesYhered" :key="line.key" class="line-down-hereditary">
+        <div :id="line.id"></div>
+      </li>
+    </ul>
     <ul id="cnmcMobCards">
       <AlterCard
         v-for="alter in alters"
@@ -38,6 +43,18 @@ export default {
         { key: 6, id: "lahMob06" },
         { key: 7, id: "lahMob07" },
         { key: 8, id: "lahMob08" },
+        { key: 9, id: "lshMob08" },
+      ],
+      linesYhered: [
+        { key: 1, id: "ldhMob01" },
+        { key: 2, id: "ldhMob02" },
+        { key: 3, id: "ldhMob03" },
+        { key: 4, id: "ldhMob04" },
+        { key: 5, id: "ldhMob05" },
+        { key: 6, id: "ldhMob06" },
+        { key: 7, id: "ldhMob07" },
+        { key: 8, id: "ldhMob08" },
+        { key: 9, id: "ldhMob08" },
       ],
     };
   },
