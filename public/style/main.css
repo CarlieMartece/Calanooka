@@ -221,6 +221,84 @@
   height: 36px;
 }
 
+#cnmcMobLinesAT * {
+  z-index: 2;
+}
+#cnmcMobLinesAT .one #latMob1, #cnmcMobLinesAT .one #latMob2, #cnmcMobLinesAT .one #latMob3, #cnmcMobLinesAT .one #latMob7, #cnmcMobLinesAT .one #latMob11 {
+  display: none;
+}
+#cnmcMobLinesAT .three #latMob2, #cnmcMobLinesAT .three #latMob3, #cnmcMobLinesAT .three #latMob7 {
+  display: none;
+}
+#cnmcMobLinesAT .four #latMob3 {
+  display: none;
+}
+#cnmcMobLinesAT .line-across-twin > * {
+  background-color: #9fcfff;
+  height: 2px;
+  position: absolute;
+}
+#cnmcMobLinesAT #latMob1 {
+  top: 29px;
+  left: 200px;
+  width: 50px;
+}
+#cnmcMobLinesAT #latMob2 {
+  width: 40px;
+  top: 102px;
+  left: 223px;
+}
+#cnmcMobLinesAT #latMob3 {
+  width: 40px;
+  top: 160px;
+  left: 90px;
+}
+#cnmcMobLinesAT #latMob4 {
+  width: 35px;
+  top: 228px;
+  left: 70px;
+}
+#cnmcMobLinesAT #latMob5 {
+  width: 40px;
+  top: 293px;
+  left: 100px;
+}
+#cnmcMobLinesAT #latMob6 {
+  width: 40px;
+  top: 347px;
+  left: 52px;
+}
+#cnmcMobLinesAT #latMob7 {
+  width: 40px;
+  top: 410px;
+  left: 162px;
+}
+#cnmcMobLinesAT #latMob8 {
+  width: 60px;
+  top: 476px;
+  left: 172px;
+}
+#cnmcMobLinesAT #latMob9 {
+  width: 90px;
+  top: 545px;
+  left: 102px;
+}
+#cnmcMobLinesAT #latMob10 {
+  width: 100px;
+  top: 612px;
+  left: 122px;
+}
+#cnmcMobLinesAT #latMob11 {
+  width: 120px;
+  top: 672px;
+  left: 142px;
+}
+#cnmcMobLinesAT #latMob12 {
+  width: 40px;
+  top: 744px;
+  left: 162px;
+}
+
 #cnmcMobCards {
   height: 750px;
   margin: 10px auto;
@@ -304,6 +382,7 @@
   display: none;
 }
 #cnmcMobCards .four #serena .cover,
+#cnmcMobCards .four #baby-zero .cover,
 #cnmcMobCards .four #clairey .cover,
 #cnmcMobCards .four #katie .cover,
 #cnmcMobCards .four #fuchsia .cover,
@@ -327,7 +406,6 @@
   display: none;
 }
 #cnmcMobCards .four #snuffle .alterName,
-#cnmcMobCards .four #baby-zero .alterName,
 #cnmcMobCards .four #clarence .alterName,
 #cnmcMobCards .four #charles .alterName,
 #cnmcMobCards .four #reckmund .alterName,

@@ -239,6 +239,93 @@
   }
 }
 
+#cnmcMobLinesAT {
+  * {
+    z-index: 2;
+  }
+  .one {
+    #latMob1, #latMob2, #latMob3, #latMob7, #latMob11 {
+      display: none;
+    }
+  }
+  .three {
+    #latMob2, #latMob3, #latMob7 {
+      display: none;
+    }
+  }
+  .four {
+    #latMob3 {
+      display: none;
+    }
+  }
+
+  .line-across-twin > * {
+    background-color: $medMain;
+    height: 2px;
+    position: absolute;
+  }
+  #latMob1 {
+    top: 29px;
+    left: 200px;
+    width: 50px;
+  }
+  #latMob2 {
+    width: 40px;
+    top: 102px;
+    left: 223px;
+  }
+  #latMob3 {
+    width: 40px;
+    top: 160px;
+    left: 90px;
+  }
+  #latMob4 {
+    width: 35px;
+    top: 228px;
+    left: 70px;
+  }
+  #latMob5 {
+    width: 40px;
+    top: 293px;
+    left: 100px;
+  }
+  #latMob6 {
+    width: 40px;
+    top: 347px;
+    left: 52px;
+  }
+  #latMob7 {
+    width: 40px;
+    top: 410px;
+    left: 162px;
+  }
+  #latMob8 {
+    width: 60px;
+    top: 476px;
+    left: 172px;
+  }
+  #latMob9 {
+    width: 90px;
+    top: 545px;
+    left: 102px;
+  }
+  #latMob10 {
+    width: 100px;
+    top: 612px;
+    left: 122px;
+  }
+  #latMob11 {
+    width: 120px;
+    top: 672px;
+    left: 142px;
+  }
+  #latMob12 {
+    width: 40px;
+    top: 744px;
+    left: 162px;
+  }
+}
+
 #cnmcMobCards {
   height: 750px;
   margin: 10px auto;
@@ -340,6 +427,7 @@
 
   .four {
     #serena,
+    #baby-zero,
     #clairey,
     #katie,
     #fuchsia,
@@ -365,7 +453,6 @@
       }
     }
     #snuffle,
-    #baby-zero,
     #clarence,
     #charles,
     #reckmund,

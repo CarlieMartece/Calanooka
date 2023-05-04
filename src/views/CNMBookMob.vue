@@ -1,6 +1,15 @@
 <template>
   <h2>Book {{ bookNumToStr }}</h2>
   <div id="cnmcMob">
+    <ul id="cnmcMobCards">
+      <AlterCard
+        v-for="alter in alters"
+        :key="alter.id"
+        :name="alter.name"
+        :arcana="alter.arcana"
+        :class="bookLower"
+      />
+    </ul>
     <ul id="cnmcMobLinesAH">
       <li v-for="index in 8" :key="index" :class="`line-across-hereditary ${bookLower}`">
         <div :id="`lahMob${index}`"></div>
@@ -11,14 +20,10 @@
         <div :id="`ldhMob${index}`"></div>
       </li>
     </ul>
-    <ul id="cnmcMobCards">
-      <AlterCard
-        v-for="alter in alters"
-        :key="alter.id"
-        :name="alter.name"
-        :arcana="alter.arcana"
-        :class="bookLower"
-      />
+    <ul id="cnmcMobLinesAT">
+      <li v-for="index in 12" :key="index" :class="`line-across-twin ${bookLower}`">
+        <div :id="`latMob${index}`"></div>
+      </li>
     </ul>
   </div>
 </template>
