@@ -2,12 +2,12 @@
   <h2>Book {{ bookNumToStr }}</h2>
   <div id="cnmcMob">
     <ul id="cnmcMobLinesAH">
-      <li v-for="index in 8" :key="index" class="line-across-hereditary">
+      <li v-for="index in 8" :key="index" :class="`line-across-hereditary ${bookLower}`">
         <div :id="`lahMob${index}`"></div>
       </li>
     </ul>
     <ul id="cnmcMobLinesDH">
-      <li v-for="index in 27" :key="index" class="line-down-hereditary">
+      <li v-for="index in 27" :key="index" :class="`line-down-hereditary ${bookLower}`">
         <div :id="`ldhMob${index}`"></div>
       </li>
     </ul>

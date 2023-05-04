@@ -8,6 +8,20 @@
   * {
     z-index: 4;
   }
+  .one {
+    #lahMob2, #lahMob5 {
+      display: none;
+    }
+    #lahMob1 {
+      left: 162px;
+    }
+  }
+  .three {
+    #lahMob5 {
+      display: none;
+    }
+  }
+
   .line-across-hereditary > * {
     background-color: $darkMain;
     height: 2px;
@@ -59,6 +73,30 @@
   * {
     z-index: 3;
   }
+  .one {
+    #ldhMob2, #ldhMob3, #ldhMob4, #ldhMob5, #ldhMob7, #ldhMob14, #ldhMob19, #ldhMob23 {
+      display: none;
+    }
+    #ldhMob15, #ldhMob16 {
+      top: 480px;
+      height: 30px;
+    }
+  }
+  .three {
+    #ldhMob3, #ldhMob4, #ldhMob5, #ldhMob14 {
+      display: none;
+    }
+    #ldhMob15, #ldhMob16 {
+      top: 480px;
+      height: 30px;
+    }
+  }
+  .four {
+    #ldhMob3 {
+      display: none;
+    }
+  }
+
   .line-down-hereditary > * {
     background-color: $darkMain;
     width: 2px;
@@ -225,12 +263,37 @@
   }
 
   .one {
-    #serena, #clairey, #katie, #fuchsia, #anxia-terra, #rose, #katherine, #honeysuckle, #alicia, #morgana, #estella, #jane, #kathy {
+    #serena,
+    #clairey,
+    #katie,
+    #fuchsia,
+    #anxia-terra,
+    #rose,
+    #katherine,
+    #honeysuckle,
+    #alicia,
+    #morgana,
+    #estella,
+    #jane,
+    #kathy {
       .cover {
         display: none;
       }
     }
-    #snuffle, #baby-zero, #clarence, #charles, #reckmund, #ava, #tara, #letitia, #lolita-honey, #loretta-alice, #leandra, #ash, #cal, #nooka {
+    #snuffle,
+    #baby-zero,
+    #clarence,
+    #charles,
+    #reckmund,
+    #ava,
+    #tara,
+    #letitia,
+    #lolita-honey,
+    #loretta-alice,
+    #leandra,
+    #ash,
+    #cal,
+    #nooka {
       .alterName {
         display: none;
       }
@@ -238,12 +301,37 @@
   }
 
   .three {
-    #serena, #clairey, #katie, #fuchsia, #anxia-terra, #rose, #katherine, #honeysuckle, #alicia, #morgana, #estella, #jane, #kathy, #leandra, #ash, #cal {
+    #serena,
+    #baby-zero,
+    #clairey,
+    #katie,
+    #fuchsia,
+    #anxia-terra,
+    #rose,
+    #katherine,
+    #honeysuckle,
+    #alicia,
+    #morgana,
+    #estella,
+    #jane,
+    #kathy,
+    #leandra,
+    #ash,
+    #cal {
       .cover {
         display: none;
       }
     }
-    #snuffle, #baby-zero, #clarence, #charles, #reckmund, #ava, #tara, #letitia, #lolita-honey, #loretta-alice, #nooka {
+    #snuffle,
+    #clarence,
+    #charles,
+    #reckmund,
+    #ava,
+    #tara,
+    #letitia,
+    #lolita-honey,
+    #loretta-alice,
+    #nooka {
       .alterName {
         display: none;
       }
@@ -251,12 +339,37 @@
   }
 
   .four {
-    #serena, #clairey, #katie, #fuchsia, #anxia-terra, #rose, #katherine, #honeysuckle, #alicia, #morgana, #estella, #jane, #kathy, #leandra, #ash, #ava, #tara, #letitia, #lolita-honey, #loretta-alice, #cal {
+    #serena,
+    #clairey,
+    #katie,
+    #fuchsia,
+    #anxia-terra,
+    #rose,
+    #katherine,
+    #honeysuckle,
+    #alicia,
+    #morgana,
+    #estella,
+    #jane,
+    #kathy,
+    #leandra,
+    #ash,
+    #ava,
+    #tara,
+    #letitia,
+    #lolita-honey,
+    #loretta-alice,
+    #cal {
       .cover {
         display: none;
       }
     }
-    #snuffle, #baby-zero, #clarence, #charles, #reckmund, #nooka {
+    #snuffle,
+    #baby-zero,
+    #clarence,
+    #charles,
+    #reckmund,
+    #nooka {
       .alterName {
         display: none;
       }
@@ -370,9 +483,10 @@
     top: $mobLineTen;
   }
   #cal {
-    left: 128px;
+    left: 115px;
     margin-top: 2px;
     top: $mobLineTwelve;
+    width: 40px;
   }
   #nooka {
     left: 196px;
