@@ -12,6 +12,7 @@
 import CNMBookMob from "./CNMBookMob.vue";
 
 export default {
+  name: "CNMC",
   components: {
     CNMBookMob,
   },

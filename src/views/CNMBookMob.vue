@@ -11,17 +11,29 @@
       />
     </ul>
     <ul id="cnmcMobLinesAH">
-      <li v-for="index in 8" :key="index" :class="`line-across-hereditary ${bookLower}`">
+      <li
+        v-for="index in 8"
+        :key="index"
+        :class="`line-across-hereditary ${bookLower}`"
+      >
         <div :id="`lahMob${index}`"></div>
       </li>
     </ul>
     <ul id="cnmcMobLinesDH">
-      <li v-for="index in 27" :key="index" :class="`line-down-hereditary ${bookLower}`">
+      <li
+        v-for="index in 27"
+        :key="index"
+        :class="`line-down-hereditary ${bookLower}`"
+      >
         <div :id="`ldhMob${index}`"></div>
       </li>
     </ul>
     <ul id="cnmcMobLinesAT">
-      <li v-for="index in 12" :key="index" :class="`line-across-twin ${bookLower}`">
+      <li
+        v-for="index in 12"
+        :key="index"
+        :class="`line-across-twin ${bookLower}`"
+      >
         <div :id="`latMob${index}`"></div>
       </li>
     </ul>
@@ -33,6 +45,7 @@ import sourceData from "../data/theCNMC.json";
 import CNMAlterCard from "./CNMAlterCard.vue";
 
 export default {
+  name: "CNMBookMob",
   props: {
     spoilBook: Number,
   },

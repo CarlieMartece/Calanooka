@@ -1,8 +1,13 @@
 #cnmcMob {
+  margin-bottom: -20px;
   position: relative;
 }
 
+#cnmcMobLinesAH {
+  display: inline;
+}
 #cnmcMobLinesAH * {
+  display: inline;
   z-index: 4;
 }
 #cnmcMobLinesAH .one #lahMob2, #cnmcMobLinesAH .one #lahMob5 {
@@ -61,6 +66,7 @@
 }
 
 #cnmcMobLinesDH * {
+  display: inline;
   z-index: 3;
 }
 #cnmcMobLinesDH .one #ldhMob2, #cnmcMobLinesDH .one #ldhMob3, #cnmcMobLinesDH .one #ldhMob4, #cnmcMobLinesDH .one #ldhMob5, #cnmcMobLinesDH .one #ldhMob7, #cnmcMobLinesDH .one #ldhMob14, #cnmcMobLinesDH .one #ldhMob19, #cnmcMobLinesDH .one #ldhMob23 {
@@ -223,6 +229,7 @@
 
 #cnmcMobLinesAT * {
   z-index: 2;
+  display: inline;
 }
 #cnmcMobLinesAT .one #latMob1, #cnmcMobLinesAT .one #latMob2, #cnmcMobLinesAT .one #latMob3, #cnmcMobLinesAT .one #latMob7, #cnmcMobLinesAT .one #latMob11 {
   display: none;

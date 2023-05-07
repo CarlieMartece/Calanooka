@@ -5,7 +5,7 @@ import CNMCollective from "../views/CNMCollective.vue";
 const routes = [
   {
     path: "/",
-    name: "Chroma",
+    name: "ChromaSphereSystem",
     component: ChromaSphereSystem,
   },
   {
