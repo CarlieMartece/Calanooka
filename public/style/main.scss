@@ -1,6 +1,7 @@
 @use "abstracts/variables" as *;
 @use "components/cnmcBookMob";
-@use "components/cnmcCollective";
+@use "components/chroma";
+@use "abstracts/colourMatch";
 
 @mixin gradient($direction, $list) {
   background: -webkit-linear-gradient($direction, $list);

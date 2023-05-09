@@ -547,112 +547,107 @@
   top: 90px;
 }
 
-#serena {
-  color: #160375;
+#spheres {
+  margin: 0 auto;
+  width: 101px;
+}
+#spheres ::first-line {
+  line-height: 39px;
+}
+#spheres li:hover {
+  opacity: 1;
+}
+#spheres #hew-espireth {
+  background-color: #f8eeff;
+  color: #2c3e50;
+}
+#spheres #godshi-enpire ::first-line {
+  line-height: 42px;
+}
+#spheres #peblash-reck ::first-line {
+  line-height: 48px;
 }
 
-#snuffle {
+.sphere {
+  border: 2px solid black;
+  border-radius: 40px;
+  color: white;
+  display: block;
+  font-family: "Pragati Narrow", sans-serif;
+  height: 76px;
+  list-style-type: none;
+  margin: 8px;
+  opacity: 0.7;
+  padding: 2px;
+  text-align: center;
+  width: 76px;
+}
+.sphere h2 {
+  font-size: 1rem;
+}
+
+#snuffle, #estella, .evol-espireth {
   color: #c22edc;
 }
 
-#baby-zero {
+#serena, #cal, .godshi-enpire {
+  color: #0610a3;
+}
+
+#nooka, #leandra, #ash, .bure-eshpel {
+  color: #528ff9;
+}
+
+#baby-zero, #clairey, #katie, #charles, #fuchsia, #anxia-terra, #morgana, .geren-eshper {
   color: #119f0b;
 }
 
-#clairey {
-  color: #119f0b;
-}
-
-#katie {
-  color: #119f0b;
-}
-
-#clarence {
-  color: #2c3e50;
-}
-
-#charles {
-  color: #119f0b;
-}
-
-#reckmund {
+#reckmund, #lolita-honey, .pyro-eshwelle {
   color: #d2af00;
 }
 
-#fuchsia {
-  color: #119f0b;
+#rose, #katherine, #honeysuckle, #jane, #kathy, #ava, #tara, .opree-shengra {
+  color: #fd8c00;
 }
 
-#anxia-terra {
-  color: #119f0b;
-}
-
-#letitia {
-  color: #2c3e50;
-}
-
-#lolita-honey {
-  color: #d2af00;
-}
-
-#loretta-alice {
+#loretta-alice, #alicia, .pred-heres {
   color: #fe0000;
 }
 
-#rose {
-  color: #fd8c00;
+#clarence, #letitia, .peblash-reck {
+  color: #464343;
 }
 
-#katherine {
-  color: #fd8c00;
+#evol-espireth {
+  background-color: #c22edc;
 }
 
-#honeysuckle {
-  color: #fd8c00;
+#godshi-enpire {
+  background-color: #0610a3;
 }
 
-#alicia {
-  color: #fe0000;
+#bure-eshpel {
+  background-color: #528ff9;
 }
 
-#morgana {
-  color: #119f0b;
+#geren-eshper {
+  background-color: #119f0b;
 }
 
-#estella {
-  color: #c22edc;
+#pyro-eshwelle {
+  background-color: #d2af00;
 }
 
-#jane {
-  color: #fd8c00;
+#opree-shengra {
+  background-color: #fd8c00;
 }
 
-#kathy {
-  color: #fd8c00;
+#pred-heres {
+  background-color: #fe0000;
 }
 
-#cal {
-  color: #160375;
-}
-
-#nooka {
-  color: #528ff9;
-}
-
-#leandra {
-  color: #528ff9;
-}
-
-#ash {
-  color: #528ff9;
-}
-
-#ava {
-  color: #fd8c00;
-}
-
-#tara {
-  color: #fd8c00;
+#peblash-reck {
+  background-color: #464343;
 }
 
 * {
@@ -687,10 +682,10 @@ nav a.router-link-exact-active {
 }
 
 #separatorStripe {
-  background: -webkit-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #160375, #c22edc);
-  background: -moz-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #160375, #c22edc);
-  background: -o-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #160375, #c22edc);
-  background: linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #160375, #c22edc);
+  background: -webkit-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #0610a3, #c22edc);
+  background: -moz-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #0610a3, #c22edc);
+  background: -o-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #0610a3, #c22edc);
+  background: linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #0610a3, #c22edc);
   height: 30px;
   opacity: 0.69;
   width: 100%;
