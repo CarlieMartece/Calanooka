@@ -1,15 +1,17 @@
 <template>
-  <div id="chroma">
-    <h1>Chroma</h1>
-    <ul id="spheres">
-      <SphereCard
-        v-for="sphere in spheres"
-        :key="sphere.id"
-        :name="sphere.name"
-        class="sphere"
-      />
-    </ul>
-  </div>
+  <main>
+    <div id="chroma-system">
+      <h1>Chroma</h1>
+      <ul id="spheres">
+        <SphereCard
+          v-for="sphere in spheres"
+          :key="sphere.id"
+          :name="sphere.name"
+          class="sphere"
+        />
+      </ul>
+    </div>
+  </main>
 </template>
 
 <script>

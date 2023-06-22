@@ -547,28 +547,27 @@
   top: 90px;
 }
 
-#spheres {
+#chroma-system #spheres {
   margin: 0 auto;
   width: 101px;
 }
-#spheres ::first-line {
+#chroma-system #spheres ::first-line {
   line-height: 39px;
 }
-#spheres li:hover {
+#chroma-system #spheres li:hover {
   opacity: 1;
 }
-#spheres #hew-espireth {
+#chroma-system #spheres #hew-espireth {
   background-color: #f8eeff;
   color: #2c3e50;
 }
-#spheres #godshi-enpire ::first-line {
+#chroma-system #spheres #godshi-enpire ::first-line {
   line-height: 42px;
 }
-#spheres #peblash-reck ::first-line {
+#chroma-system #spheres #peblash-reck ::first-line {
   line-height: 48px;
 }
-
-.sphere {
+#chroma-system .sphere {
   border: 2px solid black;
   border-radius: 40px;
   color: white;
@@ -582,8 +581,10 @@
   text-align: center;
   width: 76px;
 }
-.sphere h2 {
+#chroma-system .sphere h2 {
   font-size: 1rem;
+  margin-top: 0;
+  text-align: center;
 }
 
 #snuffle, #estella, .evol-espireth {
@@ -591,7 +592,7 @@
 }
 
 #serena, #cal, .godshi-enpire {
-  color: #0610a3;
+  color: #2b06a3;
 }
 
 #nooka, #leandra, #ash, .bure-eshpel {
@@ -623,7 +624,7 @@
 }
 
 #godshi-enpire {
-  background-color: #0610a3;
+  background-color: #2b06a3;
 }
 
 #bure-eshpel {
@@ -682,10 +683,10 @@ nav a.router-link-exact-active {
 }
 
 #separatorStripe {
-  background: -webkit-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #0610a3, #c22edc);
-  background: -moz-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #0610a3, #c22edc);
-  background: -o-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #0610a3, #c22edc);
-  background: linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #0610a3, #c22edc);
+  background: -webkit-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  background: -moz-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  background: -o-linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  background: linear-gradient(left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
   height: 30px;
   opacity: 0.69;
   width: 100%;

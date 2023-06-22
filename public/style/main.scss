@@ -1,6 +1,6 @@
 @use "abstracts/variables" as *;
 @use "components/cnmcBookMob";
-@use "components/chroma";
+@use "components/chromaSystem";
 @use "abstracts/colourMatch";
 
 @mixin gradient($direction, $list) {
