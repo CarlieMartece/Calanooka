@@ -42,7 +42,7 @@
 
 <script>
 import sourceData from "../data/theCNMC.json";
-import CNMAlterCard from "./CNMAlterCard.vue";
+import CNMAlterCard from "../components/CNMAlterCard.vue";
 
 export default {
   name: "CNMBookMob",

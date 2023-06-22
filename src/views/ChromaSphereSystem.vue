@@ -14,7 +14,7 @@
 
 <script>
 import sourceData from "../data/chromaSphereSystem.json";
-import ChromaSphereCard from "./ChromaSphereCard.vue";
+import ChromaSphereCard from "../components/ChromaSphereCard.vue";
 
 export default {
   name: "ChromaSphereSystem",
